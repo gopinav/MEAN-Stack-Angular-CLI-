@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^2.4.0",
     "@angular/router": "^3.4.0",
     "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "express": "^4.15.2",
     "mongoose": "^4.9.3",

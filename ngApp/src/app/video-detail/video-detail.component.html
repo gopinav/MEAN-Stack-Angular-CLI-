@@ -1,3 +1,17 @@
-{{video.title}}
-  {{video.url}}
-  {{video.description}}
+
+<div>
+    <form>       
+        <div class="form-group">
+            <input type="input" class="form-control" name="title" required placeholder="title"
+            [(ngModel)]="video.title">
+        </div>
+        <div class="form-group">
+            <input type="input" class="form-control" name="url" required placeholder="url"
+            [(ngModel)]="video.url">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="5" name="desc" [(ngModel)]="video.description">
+            </textarea>
+        </div>       
+    </form>
+</div>
